@@ -40,7 +40,7 @@ export const RouteCard: React.FC<RouteCardProps> = ({ route, onCustomize }) => {
     <>
     <div
       onClick={handleViewRoute}
-      className="group bg-white rounded-3xl border border-neutral-200/90 overflow-hidden shadow-2xs hover:shadow-lg transition-all duration-300 flex flex-col justify-between cursor-pointer"
+      className="group bg-white rounded-3xl border border-[#D8EDF1] overflow-hidden shadow-[0_10px_26px_rgba(23,59,89,0.08)] hover:shadow-[0_18px_40px_rgba(23,59,89,0.15)] hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between cursor-pointer"
     >
       {/* Media with badges */}
       <div className="relative h-60 bg-slate-900 overflow-hidden">
@@ -96,7 +96,7 @@ export const RouteCard: React.FC<RouteCardProps> = ({ route, onCustomize }) => {
           <h3 className="text-lg font-bold text-[#173B59] group-hover:text-[#00B8C8] transition-colors font-display line-clamp-2 leading-snug">
             {title}
           </h3>
-          <p className="text-xs text-neutral-700 line-clamp-4 leading-relaxed">
+          <p className="text-sm text-[#465E70] line-clamp-3 leading-relaxed">
             {description}
           </p>
           <div className="grid grid-cols-3 gap-1.5 pt-2">
@@ -145,7 +145,7 @@ export const RouteCard: React.FC<RouteCardProps> = ({ route, onCustomize }) => {
             <button
               type="button"
               onClick={handleViewRoute}
-              className="px-4 py-2 bg-[#00B8C8] hover:bg-[#009FAE] text-white text-xs font-bold rounded-xl transition-all flex items-center gap-1 shadow-md shadow-[#00B8C8]/20 cursor-pointer"
+              className="px-4 py-2.5 min-h-11 bg-[#008F9D] hover:bg-[#007480] text-white text-sm font-bold rounded-xl transition-all flex items-center gap-1 shadow-md shadow-[#00B8C8]/20 cursor-pointer"
             >
               <span>{l('Ver tour', 'View tour', 'Ver tour')}</span>
               <ArrowRight className="w-3.5 h-3.5" />
