@@ -298,7 +298,7 @@ export const ExperienceCard: React.FC<ExperienceCardProps> = ({
             </div>
 
             {/* Breve descripción */}
-            <p className="text-xs sm:text-sm text-neutral-600 line-clamp-2 leading-relaxed">
+            <p className="text-xs sm:text-sm text-neutral-700 line-clamp-3 leading-relaxed">
               {shortDesc}
             </p>
 
@@ -530,7 +530,7 @@ export const ExperienceCard: React.FC<ExperienceCardProps> = ({
           </div>
 
           {/* Breve descripción */}
-          <p className="text-xs text-neutral-500 line-clamp-2 leading-relaxed pt-0.5">
+          <p className="text-xs text-neutral-700 line-clamp-3 leading-relaxed pt-0.5">
             {shortDesc}
           </p>
 
