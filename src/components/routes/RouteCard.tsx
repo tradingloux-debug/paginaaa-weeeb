@@ -96,7 +96,7 @@ export const RouteCard: React.FC<RouteCardProps> = ({ route, onCustomize }) => {
           <h3 className="text-lg font-bold text-[#173B59] group-hover:text-[#00B8C8] transition-colors font-display line-clamp-2 leading-snug">
             {title}
           </h3>
-          <p className="text-xs text-neutral-600 line-clamp-3 leading-relaxed">
+          <p className="text-xs text-neutral-700 line-clamp-4 leading-relaxed">
             {description}
           </p>
           <div className="grid grid-cols-3 gap-1.5 pt-2">

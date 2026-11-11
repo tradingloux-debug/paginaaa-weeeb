@@ -25,6 +25,12 @@
 }
 
 @layer base {
+  :focus-visible { outline: 3px solid #FF6B57; outline-offset: 3px; }
+  ::selection { background-color: #FFC857; color: #173B59; }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+
   body {
     font-family: var(--font-sans);
     background-color: #FFFDF8;
